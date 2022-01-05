@@ -30,34 +30,40 @@
         <div class="container">
             <h4> Add Data</h4>
             <form>
-              <div class="row">
-                  <div class="form-group my-3">
-                    <label for="idsepatu" class="form-label">ID Sepatu</label>
-                    <input type="text" class="form-control" id="idsepatu" placeholder="Masukkan ID Sepatu">
+              <div class="row row-cols-2 mx-auto">
+                    <div class="form-group my-3 col-4">
+                      <label for="idsepatu" class="form-label">ID Sepatu</label>
+                      <input type="text" class="form-control" id="idsepatu" placeholder="Masukkan ID Sepatu">
+                    </div>
+                    <div class="form-group my-3 col-4">
+                      <label for="nama_sepatu" class="form-label">Nama Sepatu</label>
+                      <input type="text" class="form-control" id="nama_sepatu" placeholder="Masukkan Nama Sepatu">
+                    </div>
+                    <div class="form-group my-3 col-4">
+                      <label for="jenis_sepatu" class="form-label">Jenis Sepatu</label>
+                      <input type="text" class="form-control" id="jenis_sepatu" placeholder="Masukkan Jenis Sepatu">
+                    </div>
+                    <div class="form-group my-3 col-4">
+                      <label for="merk_sepatu" class="form-label">Merk Sepatu</label>
+                      <input type="text" class="form-control" id="merk_sepatu" placeholder="Masukkan Merk Sepatu">
+                    </div>
+                    <div class="form-group my-3 col-4">
+                      <label for="harga_sepatu" class="form-label">Harga Sepatu</label>
+                      <input type="text" class="form-control" id="harga_sepatu" placeholder="Masukkan Harga Sepatu">
+                    </div>
+                    <div class="form-group my-3 col-4">
+                      <label for="ukuran_sepatu" class="form-label">Ukuran Sepatu</label>
+                      <input type="text" class="form-control" id="ukuran_sepatu" placeholder="Masukkan Ukuran Sepatu">
+                    </div>
                   </div>
-                  <div class="form-group my-3">
-                    <label for="nama_sepatu" class="form-label">Nama Sepatu</label>
-                    <input type="text" class="form-control" id="nama_sepatu" placeholder="Masukkan Nama Sepatu">
+                </div>  
+                <div class="row">
+                  <div class="col-12 text-center">
+                    <button type="button" class="btn tombol ms-2 mt-4 col-3" onclick="saveData();">Save Data</button>
+                    <button type="button" class="btn tombol ms-3 col-3 mt-4" onclick="return window.location.href= './data.html'">Kembali</button>
                   </div>
-                  <div class="form-group my-3">
-                    <label for="jenis_sepatu" class="form-label">Jenis Sepatu</label>
-                    <input type="text" class="form-control" id="jenis_sepatu" placeholder="Masukkan Jenis Sepatu">
-                  </div>
-                  <div class="form-group my-3">
-                    <label for="merk_sepatu" class="form-label">Merk Sepatu</label>
-                    <input type="text" class="form-control" id="merk_sepatu" placeholder="Masukkan Merk Sepatu">
-                  </div>
-                  <div class="form-group my-3">
-                    <label for="harga_sepatu" class="form-label">Harga Sepatu</label>
-                    <input type="text" class="form-control" id="harga_sepatu" placeholder="Masukkan Harga Sepatu">
-                  </div>
-									<div class="form-group my-3">
-                    <label for="ukuran_sepatu" class="form-label">Ukuran Sepatu</label>
-                    <input type="text" class="form-control" id="ukuran_sepatu" placeholder="Masukkan Ukuran Sepatu">
-                  </div>
-                  <button type="button" class="btn tombol ms-2 mt-4 col-3" onclick="saveData();">Save Data</button>
-                  <button type="button" class="btn tombol ms-3 col-3 mt-4" onclick="return window.location.href= './data.html'">Kembali</button>
-            </div>  
+                </div>
+                
             </form>
             </div>
         </div>
